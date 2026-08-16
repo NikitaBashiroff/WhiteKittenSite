@@ -65,7 +65,7 @@ body {
 .news {
     background-image: url(images/mediacenter.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
