@@ -5,8 +5,8 @@
     --primary-hover: #0056b3;
     --secondary-bg: #f5f5f5;
     --border-color: #a1a1a1;
-    --card-bg: #515151;
-    --card-text: #ffffff;
+    --card-bg: #cacaca;
+    --card-text: #000000;
     --border-radius: 15px;
     --transition-speed: 0.3s;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -19,6 +19,7 @@
     --secondary-bg: #333333;
     --border-color: #555555;
     --card-bg: #3a3a3a;
+    --card-text: #ffffff;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     --box-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
@@ -146,7 +147,7 @@ body {
 }
 
 .gap {
-    margin-bottom: 50px;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 768px) {
