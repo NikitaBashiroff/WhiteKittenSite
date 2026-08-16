@@ -6,6 +6,12 @@
         <title>White Kitten</title>
         <link rel="stylesheet" href="other/resources/style.css">
         <link rel="icon" href="other/resources/images/favicon.ico">
+        <script>
+            (function() {
+              const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+              document.documentElement.setAttribute('data-theme', theme);
+            })();
+        </script>
     </head>
     <body>
         <nav class="navbar">
