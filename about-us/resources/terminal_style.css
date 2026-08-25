@@ -1,0 +1,24 @@
+body {
+    font-family: consolas;
+    color: greenyellow;
+    background-color: black;
+}
+
+hr {
+    background-color: greenyellow;
+}
+
+.cursor {
+  font-weight: bold;
+  animation: blink-cursor 1.3s steps(2, start) infinite;
+}
+
+@keyframes blink-cursor {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>White Kitten</title>
+        <link rel="stylesheet" href="resources/style.css">
+        <link rel="icon" href="resources/images/favicon.ico">
+        <script>
+            (function() {
+              const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+              document.documentElement.setAttribute('data-theme', theme);
+            })();
+        </script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#"><img src="resources/images/dark-logo.png" width="250px" id="logo" alt=""></a>
+            <div class="navbar-links">
+                <a href="news/index.html" class="button">News</a>
+                <a href="about-us/index.html" class="button">About us</a>
+                <button class="button" id="theme-toggle"></button>
+            </div>
+        </nav>
+        <div class="news">
+            <h1>White Kitten Offline is out!</h1>
+            <h3>Russian Beta available</h3>
+        </div>
+        <p></p>
+        <div class="border gap">
+            <h2>Our projects</h2>
+            <div class="full-project">
+                <div class="project">
+                    <img src="resources/images/offline-logo.png" width="150px" class="project-logo" alt="">
+                    <p>White Kitten Offline</p>
+                </div>
+                <p class="gap">
+                    An ODC (Offline Digital Content) site that can work in places that doesn't have any access to the Internet.
+                    Useful for cars, buses, trains, airlines and houses while there isn't any access to the Internet.
+                    Offline can be shared through the Wi-Fi access point. Right now it's only available in Russian, but we're working on other languages too.
+                </p>
+            </div>
+        </div>
+        <div class="border">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <details>
+                <summary>Who are you?</summary>
+                <p>We are White Kitten. We create sites and programs. We also develop technologies. More information at the <a href="other/about_us.html">about us page</a></p>
+            </details>
+            <details>
+                <summary>Do you use AI?</summary>
+                <p>Yes, we do. But we don't build entire websites with it. We use it only when we need some help.</p>
+            </details>
+        </div>
+        <script src="resources/theme-script.js"></script>
+    </body>
+</html>
