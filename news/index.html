@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>White Kitten - News</title>
+        <link rel="stylesheet" href="../resources/style.css">
+        <link rel="icon" href="../resources/images/favicon.ico">
+        <script>
+            (function() {
+              const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+              document.documentElement.setAttribute('data-theme', theme);
+            })();
+        </script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="../"><img src="../resources/images/dark-logo.png" width="250px" id="logo" alt=""></a>
+            <div class="navbar-links">
+                <a href="#" class="button">News</a>
+                <a href="../about-us/" class="button">About us</a>
+                <button class="button" id="theme-toggle"></button>
+            </div>
+        </nav>
+        <div class="border">
+            <h2><a href="#">White Kitten Offline Beta is out!</a></h2>
+            <p>Russian Beta available.</p>
+            <p>08/03/2026</p>
+        </div>
+        <script src="../resources/theme-script.js"></script>
+        <script src="../resources/analytics.js"></script>
+    </body>
+</html>
