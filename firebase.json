@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "whitekittensite",
     "public": ".",
     "ignore": [
       "firebase.json",
