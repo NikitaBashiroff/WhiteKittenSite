@@ -30,11 +30,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Srbija-Sans';
+  src: url('Srbija Sans.otf') format('opentype');
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background var(--transition-speed), color var(--transition-speed);
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: 'Srbija-Sans';
     padding: 25px;
     margin: 0;
     line-height: 1.6;
